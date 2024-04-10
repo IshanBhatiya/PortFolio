@@ -13,10 +13,10 @@ import NotFoundPage from './Pages/NotFoundPage.jsx';
 function App() {
 
   const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <><Home /></>,
-    },
+    // {
+    //   path: "/",
+    //   element: <><Home /></>,
+    // },
     {
       path: "/home",
       element: <><Home /></>,
@@ -34,8 +34,8 @@ function App() {
       element: <><NavBar/><Contact /></>,
     },
     {
-      path: "/*",
-      element: <><NavBar/><NotFoundPage /></>,
+      path: "*",
+      element: <><NotFoundPage /></>,
     },
   ]);
 
