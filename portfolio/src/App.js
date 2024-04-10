@@ -7,13 +7,14 @@ import Contact from './Pages/ContactMe.jsx';
 import NavBar from './Components/Header.jsx';
 
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import NotFoundPage from './Pages/NotFoundPage.jsx';
 
 
 function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/home",
       element: <><Home /></>,
     },
     {
@@ -27,6 +28,10 @@ function App() {
     {
       path: "/contact",
       element: <><NavBar/><Contact /></>,
+    },
+    {
+      path: "*",
+      element: <><NavBar/><NotFoundPage /></>,
     },
   ]);
 

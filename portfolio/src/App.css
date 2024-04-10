@@ -104,24 +104,24 @@
 /* project css below */
 .project {
     margin-top: 4pc;
-  }
-  
-  #projectLogo {
+}
+
+#projectLogo {
     width: 40pc;
     height: 31pc;
 }
-  
-  .projectHeading {
+
+.projectHeading {
     text-align: center;
     margin-top: 3pc;
-  }
-  
-  .projectSubHeading {
+}
+
+.projectSubHeading {
     text-align: center;
     margin-top: 3pc;
-  }
-  
-  .projectList ul {
+}
+
+.projectList ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -129,17 +129,30 @@
     padding: 1pc;
 
     background: rgb(25, 47, 57);
-  }
-  
-  .projectList li {
+}
+
+.projectList li {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;  
+    border: 1px solid black;
 }
-  
-  .ProjectInfo {
+
+.ProjectInfo {
     margin-bottom: 15px;
     width: 35pc;
-    text-align: center;   
-  }
-  
+    text-align: center;
+}
+
+
+/* notfound Page Css below */
+
+#notfound {
+    height: 80vh;
+    width: 100vw;
+}
+
+#pageNotFoundBtn{
+    position: absolute;
+    top: 32pc;
+    left: 38pc;
+}
