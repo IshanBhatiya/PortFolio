@@ -1,5 +1,5 @@
 {
-  "homepage": "home",
+  "homepage": "./src/Pages/Home.jsx",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
