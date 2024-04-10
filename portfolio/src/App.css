@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    background: rgb(237, 249, 254);
+}
+
+#name {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* Hero Section Css */
+.Hero {
+    margin-top: 7pc;
+}
+
+#img1 {
+    width: 35pc;
+    height: 20pc;
+}
+
+
+/* Profession Css */
+#img2 {
+    width: 35pc;
+    height: 20pc;
+}
+
+.small-Images {
+    width: 10pc;
+    height: 4pc;
+}
+
+.sub-points {
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/* Work css */
+
+.work-heading {
+    margin-top: 5pc;
+    text-align: center;
+}
+
+#img3 {
+    width: 35pc;
+    height: 20pc;
+}
+
+
+/* Education Css here */
+
+#g-edu {
+    width: 41pc;
+    height: 25pc;
+}
+
+.cards {
+    width: 50pc;
+    height: 15pc;
+    mix-blend-mode: multiply;
+
+}
+
+.gradation {
+    margin-top: 5pc;
+}
+
+#niit {
+    mix-blend-mode: multiply;
+}
+
+#college {
+    mix-blend-mode: multiply;
+}
+
+/* Contact me Css Below */
+
+#my-image {
+    width: 40pc;
+    height: 31pc;
+    mix-blend-mode: multiply;
+}
+
+.resume {
+    margin-left: 10pc;
+    padding: 2pc;
+}
+
+#address {
+    width: 40pc;
+    height: 31pc;
+    mix-blend-mode: multiply;
+}
+
+
+
+/* project css below */
+.project {
+    margin-top: 4pc;
+  }
+  
+  #projectLogo {
+    width: 40pc;
+    height: 31pc;
+}
+  
+  .projectHeading {
+    text-align: center;
+    margin-top: 3pc;
+  }
+  
+  .projectSubHeading {
+    text-align: center;
+    margin-top: 3pc;
+  }
+  
+  .projectList ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    list-style: none;
+    padding: 1pc;
+
+    background: rgb(25, 47, 57);
+  }
+  
+  .projectList li {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;  
+}
+  
+  .ProjectInfo {
+    margin-bottom: 15px;
+    width: 35pc;
+    text-align: center;   
+  }
+  
