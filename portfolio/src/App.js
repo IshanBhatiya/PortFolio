@@ -8,15 +8,12 @@ import NavBar from './Components/Header.jsx';
 
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import NotFoundPage from './Pages/NotFoundPage.jsx';
-import Start from '../src/App'
+ 
 
 function App() {
 
   const router = createBrowserRouter([
-    {
-      path: "/*",
-      element: <><Start/></>,
-    },
+    
     {
       path: "/home",
       element: <><Home /></>,
