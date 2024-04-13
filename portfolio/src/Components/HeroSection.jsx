@@ -8,8 +8,8 @@ export default function HeroSection() {
         <div className='container'>
             <div className="Hero d-flex d-inline-flex ">
                 <div id="info border ml-3">
-                    <h2 className='heading mt-2 '>Ishu Bhatia</h2>
-                    <h5 className='sub-heading mt-2 '>(ishaan.bhatia.12)</h5>
+                    <h1 className='heading'> Hey ! I'm Ishu Bhatia,<br /></h1>
+                    <h2 className='heading mt-2 '>A Full Stack developer Based in Shimla , Himachal Pradesh.</h2>
                     <p className='info mt-2 '>A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.</p>
 
 
