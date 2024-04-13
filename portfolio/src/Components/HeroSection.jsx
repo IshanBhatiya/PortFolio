@@ -60,7 +60,7 @@ export default function HeroSection() {
                         <div className="d-grid gap-1 col-6 mt-4">
                             <a href="https://github.com/IshanBhatiya" target='_blank' rel="noreferrer">
                                 <button type="button" className="btn btn-outline-dark">
-                                    Star my Git-hub
+                                    View my Git-hub
                                 </button>
                             </a>
                         </div>
