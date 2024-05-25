@@ -7,8 +7,6 @@ export default function Certifications() {
             <div className="heading mt-xl-5 ">
                 <h2 className='heading text-center '>Certifications</h2>
             </div>
-
-
         </div>
     )
 }

@@ -13,48 +13,75 @@
 
 
 /* Hero Section Css */
-.Hero {
-    margin-top: 7pc;
+.social {
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: -8pc 0pc 0pc 0pc;
 }
 
 #img1 {
-    width: 35pc;
-    height: 20pc;
+    width: 58vw;
+    height: 100vh;
 }
 
 
 /* Profession Css */
 #img2 {
-    width: 35pc;
-    height: 20pc;
+    width: 35vw;
+    height: 100vh;
+}
+
+.stack-Info {
+    margin: 0pc 0pc 0pc 2pc;
+    display: flex;
+}
+
+.tech-icon {
+    display: flex;
+    justify-content: space-between;
 }
 
 .small-Images {
-    width: 10pc;
-    height: 4pc;
+    width: 10vw;
+    height: 15vh;
+}
+
+
+
+/* Work css */
+.work {
+    display: flex;
+    align-items: center;
+}
+
+.work-heading {
+    margin-top: 1pc;
+    text-align: center;
 }
 
 .sub-points {
     font-family: Quicksand;
     font-weight: 300;
     font-size: 20px;
-}
-
-
-/* Work css */
-
-.work-heading {
-    margin-top: 5pc;
-    text-align: center;
+    text-wrap: wrap;
+    width: 40vw;
 }
 
 #img3 {
-    width: 35pc;
-    height: 20pc;
+    width: 40vw;
+    height: 100vh;
 }
 
 
 /* Education Css here */
+
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 #g-edu {
     width: 41pc;
@@ -82,10 +109,24 @@
 
 /* Contact me Css Below */
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #my-image {
-    width: 40pc;
-    height: 31pc;
+    width: 30vw;
+    height: 80vh;
     mix-blend-mode: multiply;
+}
+
+.Contact-social {
+    display: flex;
+    margin: 1pc 0pc 1pc 0pc;
+    width: 59vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .resume {
@@ -93,22 +134,43 @@
     padding: 2pc;
 }
 
+.address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aside {
+    font-size: 43px;
+    text-align: center;
+    width: 47vw;
+}
+
 #address {
-    width: 40pc;
-    height: 31pc;
+    width: 40vw;
+    height: 70vh;
     mix-blend-mode: multiply;
 }
 
+.intro h6 {
+    font-size: 20px;
+}
 
 
 /* project css below */
 .project {
-    margin-top: 4pc;
+    display: flex;
+    align-items: center;
 }
 
 #projectLogo {
-    width: 40pc;
-    height: 31pc;
+    width: 100vw;
+    height: 100vh;
+}
+
+.projectInfo {
+    width: 149vw;
 }
 
 .projectHeading {
@@ -119,6 +181,9 @@
 .projectSubHeading {
     text-align: center;
     margin-top: 3pc;
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .projectList ul {
@@ -151,8 +216,157 @@
     width: 100vw;
 }
 
-#pageNotFoundBtn{
+#pageNotFoundBtn {
     position: absolute;
     top: 32pc;
     left: 38pc;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Hero {
+        margin-top: 2pc;
+    }
+
+    .social {
+        display: flex;
+        margin: 1pc 0pc 1pc 0pc;
+        width: 82vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sub-Hero {
+        flex-wrap: wrap;
+    }
+
+    #img1 {
+        width: 90vw;
+        height: 53vh;
+    }
+
+    #img2 {
+        width: 90vw;
+        height: 53vh;
+    }
+
+    .stack-Info {
+        width: 86vw;
+        margin: 0pc 0pc 1pc 0pc;
+    }
+
+    .small-Images {
+        width: 21vw;
+        height: 17vh;
+    }
+
+
+    .work {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 92vw;
+    }
+
+    .sub-points {
+        font-family: Quicksand;
+        font-weight: 300;
+        font-size: 20px;
+        text-wrap: wrap;
+        width: 81vw;
+    }
+
+    #img3 {
+        width: 100vw;
+        height: 42vh;
+    }
+
+    .certificates {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .projectInfo {
+        width: 90vw;
+    }
+
+    .ProjectInfo {
+        margin-bottom: 15px;
+        width: 83vw;
+        text-align: center;
+    }
+
+
+    .project {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .projectList ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        list-style: none;
+        padding: 1pc;
+        background: rgb(25, 47, 57);
+        justify-content: end;
+        align-content: stretch;
+    }
+
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #my-image {
+        width: 92vw;
+        height: 80vh;
+        mix-blend-mode: multiply;
+    }
+
+    .Contact-social {
+        width: 95vw;
+    }
+
+    .resume {
+        margin-left: 0pc;
+        padding: 2pc;
+    }
+
+    .resume button {
+        width: 68vw;
+    }
+
+    .address {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    #address {
+        width: 99vw;
+        height: 70vh;
+        mix-blend-mode: multiply;
+    }
+
+    .aside {
+        font-size: 43px;
+        text-align: center;
+        width: 84vw;
+    }
+
+    #pageNotFoundBtn {
+        position: absolute;
+        top: 22pc;
+        left: 5pc;
+    }
 }

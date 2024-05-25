@@ -7,8 +7,8 @@ import coe from '../Assets/COE.jpg'
 export default function Education() {
   return (
     <div className='container mt-xl-5 '>
-      <div className="certificates   d-flex ">
-        <img id='g-edu' src={graduation} alt="" />
+      <div className="certificates">
+        <img className='img-fluid' id='g-edu' src={graduation} alt="" />
 
         <div className="info mt-lg-3 align-content-center  ">
           <h1 className='sub-info text-center '>

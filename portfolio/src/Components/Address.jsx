@@ -5,7 +5,7 @@ export default function Address() {
     return (
         <div className='container'>
             <div className="card mb-3 mt-xxl-5 " />
-            <div className="address d-flex  justify-content-center align-items-center">
+            <div className="address">
                 <div className="aside">
                     <div className="address-info">
                         <h1 className='text-center'>Address</h1>
@@ -21,7 +21,7 @@ export default function Address() {
                 </div>
 
                 <div className="addressImage">
-                    <img id='address' src={addressMail} alt="" />
+                    <img className='img-fluid ' id='address' src={addressMail} alt="" />
                 </div>
             </div>
         </div>

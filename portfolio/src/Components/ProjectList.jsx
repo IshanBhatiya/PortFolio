@@ -6,7 +6,7 @@ export default function ProjectList({ project }) {
     return (
 
         <div className='container '>
-            <div className="project">
+            <div className="projectGrids">
                 <div className='projectList'>
                     <ul>
                         {project.map((project) => (
